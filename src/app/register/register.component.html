@@ -1,0 +1,12 @@
+<div fxLayout="row">
+  <mat-card fxFlex.gt-xs="100%" fxFlexAlign="center" fxLayout="column" fxLayoutAlign="center" class="card">
+    <mat-card-title fxFlex.xs="90%" fxFlex.gt-xs="70%" fxLayout="row" >
+      <h3>{{testUser.name}}</h3>
+    </mat-card-title>
+    <mat-card-content fxFlex.xs="90%" fxFlex.gt-xs="70%" fxLayout="column">
+      {{testUser.address | json}}
+    </mat-card-content>
+    <mat-card-actions>
+    </mat-card-actions>
+  </mat-card>
+</div>

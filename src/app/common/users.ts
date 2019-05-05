@@ -4,6 +4,7 @@ export const USERS: User[] = [
   {
     name: "Tinino Sanchez",
     email: "tinino@uol.com.br",
+    password: '',
     address: {
       street: "Rua São Ticiano",
       houseNum: '251', 
@@ -17,6 +18,7 @@ export const USERS: User[] = [
   {
     name: "Kekão Sanchez",
     email: "kekao@uol.com.br",
+    password: '',
     address: {
       street: "Rua São Ticiano",
       houseNum: '251', 
@@ -30,6 +32,7 @@ export const USERS: User[] = [
   {
     name: "Mimbel Sanchez",
     email: "mimbel@uol.com.br",
+    password: '',
     address: {
       street: "Rua São Ticiano",
       houseNum: '251', 
@@ -44,6 +47,7 @@ export const USERS: User[] = [
   {
     name: "Frodão Sanchez",
     email: "frodao@uol.com.br",
+    password: '',
     address: {
       street: "Rua São Ticiano",
       houseNum: '251', 

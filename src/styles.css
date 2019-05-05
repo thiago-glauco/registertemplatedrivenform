@@ -3,7 +3,7 @@
 
 .container {
   display: flex;
-  margin: auto;
+  margin: 90px auto;
   padding: 5px auto;
   background-color: floralwhite;
   max-width: 90%;
@@ -25,7 +25,9 @@ mat-toolbar {
 }
 
 .card {
-  margin: auto;
+  margin: 10px auto 10px auto;
+  padding: 10px 10px 10px 10px;
+  
 }
 .header {
   
