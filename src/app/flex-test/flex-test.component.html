@@ -1,14 +1,13 @@
- <div fxLayout="row"> 
-  <mat-toolbar fxFlex.xs="96%" fxFlex.sm="98%" fxFlex.gt-sm="99%" fxFlexAlign="center" color="primary">
-    <h3>toolbar</h3>
+
+  <mat-toolbar class="top" fxLayout="row" fxLayoutAlign="start center" color="primary">
+    <h3 matLine>toolbar</h3>
   </mat-toolbar>
-  <div fxFlex="1%"></div>
-</div>
+
 <div fxLayout="row">
   <div fxFlex="30%" fxFlexAlign="center" color="primary"><p>teste</p></div>
   <div fxFlex color="primary"><p>teste</p></div>
 </div>
-<div fxLayout="row">
+<div fxLayout="row wrap">
   <div fxFlex fxFlexAlign="center" color="primary"><p>teste</p></div>
   <div fxFlex><p>teste</p></div>
   <div fxFlex><p>teste</p></div>
@@ -23,6 +22,7 @@
   <div fxFlex="1 1 50%"><p>teste</p></div>
   <div fxFlex><p>teste</p></div>
 </div>
+<!-- Testing fxLayout column -->
 <div fxLayout="column">
   <div fxFlex fxLayout="row">
     <div fxFlex fxFlexAlign="center" ><p>teste</p></div>
@@ -37,4 +37,29 @@
     <p fxFlex>teste</p>
     </div>
 </div>
-
+<!-- Testing fxLayout row with wrap -->
+<div fxLayout="row wrap" fxLayoutAlign="center center">
+  <div fxFlex="80%" fxFlexAlign="center center" color="primary"><p>teste</p></div>
+  <div fxFlex="50%"><p>teste</p></div>
+  <div fxFlex="50%"><p>teste</p></div>
+  <div fxFlex><p>teste</p></div>
+  <div fxFlex><p>teste</p></div>
+  <div fxFlex><p>teste</p></div>
+  <div fxFlex><p>teste</p></div>
+  <div fxFlex><p>teste</p></div>
+</div>
+<!-- Testing fxLayout column-->
+<div fxLayout="column" fxLayoutGap="10px">
+  <div fxFlex fxLayout="row">
+    <div fxFlex fxFlexAlign="center" ><p>teste</p></div>
+    <div fxFlex="50%" fxFlexAlign="baseline"><p>teste</p></div>
+    <div fxFlex ><p>teste</p></div>
+  </div>
+    <div fxFlex fxFlexAlign="stretch" ><p>teste</p></div>
+    <div fxFlex="10%"><p>teste</p></div>
+    <div fxFlex ><p>teste</p></div>
+  <div fxFlex fLayout="row">
+    <p fxFlex="80%">teste</p>
+    <p fxFlex>teste</p>
+    </div>
+</div>
