@@ -17,6 +17,7 @@ import "hammerjs";
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
+import { FlexTestComponent } from './flex-test/flex-test.component';
 
 
 @NgModule({
@@ -34,7 +35,7 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
     BrowserAnimationsModule,
     FlexLayoutModule
   ],
-  declarations: [ AppComponent, HelloComponent, LoginComponent, RegisterComponent, TopMenuComponent ],
+  declarations: [ AppComponent, HelloComponent, LoginComponent, RegisterComponent, TopMenuComponent, FlexTestComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
