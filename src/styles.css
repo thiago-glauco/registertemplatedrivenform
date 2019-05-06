@@ -1,6 +1,16 @@
 /* Add application styles & imports to this file! */
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 
+div {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: aliceblue;
+}
+p {
+  background-color: orange;
+  border: 2px solid blue;
+}
 
 /*
 .container {
