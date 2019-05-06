@@ -1,6 +1,9 @@
 /* Add application styles & imports to this file! */
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-
+/*
+.container {
+  display: flex;
+}
 div {
   border: 2px solid black;
   padding: 5px;
@@ -11,11 +14,19 @@ p {
   background-color: orange;
   border: 2px solid blue;
 }
+mat-toolbar {
+  position: fixed;
+  top: 5px;
+  left: 8px;
+  z-index: 100;
+  margin: auto;
+}
+*/
 
-/*
+
 .container {
   display: flex;
-  margin: 20px auto;
+  margin: 40px auto;
   padding: 5px auto;
   background-color: floralwhite;
   max-width: 90%;
@@ -23,11 +34,8 @@ p {
 }
 mat-toolbar {
   position: fixed;
-  top: 10px;
-  left:10px;
-  right: 10px;
-  width: 100%;
-  padding: 10px;
+  top: 5px;
+  left: 8px;
   z-index: 100;
   margin: auto;
 }
@@ -43,4 +51,4 @@ mat-toolbar {
 .header {
   
 }
-*/
+
